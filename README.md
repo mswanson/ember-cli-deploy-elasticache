@@ -1,5 +1,12 @@
 # Ember-cli-deploy-aws-elasticache
 
+This addon is very much a work in progress there is a lot of work still to do.
+
+[ ] - Add tests
+[ ] - Get deploy:activate to work with Redis
+
+**DONT USE THIS FOR PRODUCTION YET**
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
