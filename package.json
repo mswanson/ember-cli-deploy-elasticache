@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-deploy-aws-elasticache",
+  "name": "ember-cli-deploy-elasticache",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Setup an ssh tunnel to AWS Elasticache (Redis) via an EC2 instance",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -13,12 +13,13 @@
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.0.0"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
+    "child-process-es6-promise": "^1.0.0",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.4.3",
     "ember-cli-app-version": "^1.0.0",
@@ -39,10 +40,12 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-deploy-plugin": "^0.2.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
