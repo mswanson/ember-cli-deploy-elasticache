@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-elasticache",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Setup an ssh tunnel to AWS Elasticache (Redis) via an EC2 instance",
   "directories": {
     "doc": "doc",
