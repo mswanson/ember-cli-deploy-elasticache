@@ -2,8 +2,8 @@
 
 This addon is very much a work in progress there is a lot of work still to do.
 
-[ ] - Add tests
-[ ] - Get deploy:activate to work with Redis
+* [ ] Add tests
+* [ ] Get deploy:activate to work with Redis
 
 **DONT USE THIS FOR PRODUCTION YET**
 
